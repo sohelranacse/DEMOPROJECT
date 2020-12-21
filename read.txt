@@ -1,0 +1,25 @@
+pip install django
+
+python -m django --version
+
+django-admin startproject DEMOPROJECT
+cd DEMOPROJECT
+
+python manage.py runserver
+----
+
+python manage.py startapp DEMOAPP
+------------------------------------
+views.py
+--
+from django.http import HttpResponse
+
+def hi(request):
+	return HttpResponse('<h1>This is my homepage.</h1>')
+# create a new file (urls.py)
+
+
+
+
+
+
