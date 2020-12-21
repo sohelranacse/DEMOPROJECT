@@ -1,2 +1,2 @@
-# DEMOPROJECT
+# DJango Basic
  
